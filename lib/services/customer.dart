@@ -1,7 +1,7 @@
 class Customer {
   bool status;
   final String name;
-  final int age;
+  final String age;
   final bool isPaymentPaid;
   final String trainer;
 

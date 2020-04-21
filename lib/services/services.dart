@@ -34,7 +34,7 @@ class Services {
     names.forEach((name) {
       customers.add(Customer(
           name: name,
-          age: 25 + rand.nextInt(50 - 25),
+          age: (25 + rand.nextInt(50 - 25)).toString(),
           isPaymentPaid: rand.nextBool(),
           status: rand.nextBool() || rand.nextBool() || rand.nextBool(),
           trainer: names[rand.nextInt(names.length)]));
